@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 40px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.card.active {
+    background-color: #d1e7dd;
+    border-color: #0f5132;
+    color: #0f5132;
+    font-weight: bold;
+}
